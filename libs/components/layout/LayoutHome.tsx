@@ -8,11 +8,13 @@ const withLayoutMain = (Component: any) => {
         <Head>
           <title>Nestar</title>
         </Head>
-        <Stack sx={{ background: "#81c784" }}>Header Home</Stack>
-        <Stack id={"main"}>
-          <Component {...props} />
+        <Stack id="pc-wrap">
+          <Stack sx={{ background: "#81c784" }}>Header Home</Stack>
+          <Stack id={"main"}>
+            <Component {...props} />
+          </Stack>
+          <Stack sx={{ background: "#a1887f" }}>Footer</Stack>
         </Stack>
-        <Stack sx={{ background: "#a1887f" }}>Footer</Stack>
       </>
     );
   };
