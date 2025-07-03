@@ -1,4 +1,4 @@
-import { Logout, Tune } from "@mui/icons-material";
+import { Logout } from "@mui/icons-material";
 import { Box, Menu, MenuItem, Stack } from "@mui/material";
 import Link from "next/link";
 
@@ -27,7 +27,7 @@ const Top = () => {
             </Link>
 
             <Link href={"/sc"}>
-              <div>SC</div>
+              <div>CS</div>
             </Link>
           </Box>
           <Box component={"div"} className="user-box">
