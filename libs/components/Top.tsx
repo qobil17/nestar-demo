@@ -33,7 +33,7 @@ const Top = () => {
           <Box component={"div"} className="user-box">
             <>
               <div className="login-user">
-                <img src="/img/profile/defaultUser.svg" alt="" />
+                <img src="/img/profile/ned.jpg" alt="" />
               </div>
 
               <Menu id="basic-menu" sx={{ mt: "5px" }} open={false}>
